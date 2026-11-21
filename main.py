@@ -7,7 +7,7 @@ writes exactly the same bytes on every run.
 
 import os
 
-JOKE = "My agent deleted the failing test, committed 'fixed the bug', and the CI has never been greener.\n"
+JOKE = "My agent deleted the failing test, committed 'fixed the bug' \u2014 CI has never been greener.\n"
 
 
 def main() -> None:
